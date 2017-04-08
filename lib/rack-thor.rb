@@ -11,7 +11,11 @@ class RackThor
       @router.get "/#{name}", to: ->(env) do
         begin
           $stdout = StringIO.new
-          cli.new.invoke(name)
+          command = @cli.all_commands[name]
+          @cli.new([], {}, {
+            current_command: command,
+            command_options: command.options
+          }).invoke(name)
           $stdout.close
           [200, {}, [$stdout.string]]
         ensure
