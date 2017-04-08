@@ -5,15 +5,20 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+ENV['RACK_ENV'] = 'test'
+
 require 'simplecov' unless RUBY_PLATFORM == 'java'
 require 'scrutinizer/ocular'
 Scrutinizer::Ocular.watch!
 
+require 'rack/test'
 require 'rspec/collection_matchers'
 
 Dir['./spec/support/**/*.rb'].sort.each { |f| require f }
 
 RSpec.configure do |config|
+  config.include Rack::Test::Methods
+
   config.expect_with :rspec do |expectations|
     expectations.syntax = :expect
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true

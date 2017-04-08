@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'pry-nav', '~> 0.2.4', '>= 0.2.0'
   s.add_development_dependency 'pry-rescue', '~> 1.4.4', '>= 1.4.0'
+  s.add_development_dependency 'rack-test', '~> 0.6.3', '>= 0.6.0'
   s.add_development_dependency 'rspec', '~> 3.5.0', '>= 3.5.0'
   s.add_development_dependency 'rspec-core', '~> 3.5.4', '>= 3.5.0'
   s.add_development_dependency 'rspec-collection_matchers', '~> 1.1.2', '>= 1.1.0'
