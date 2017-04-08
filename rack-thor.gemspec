@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.files       = Dir['lib/**/*']
   s.homepage    = 'https://github.com/michaelmior/rack-thor/'
 
+  s.add_dependency 'hanami-router', '~> 0.6.2', '>= 0.6.0'
   s.add_dependency 'rack', '~> 2.0.1', '>= 2.0.0'
   s.add_dependency 'rake', '~> 12.0.0', '>= 12.0.0'
 
@@ -18,5 +19,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-collection_matchers', '~> 1.1.2', '>= 1.1.0'
   s.add_development_dependency 'scrutinizer-ocular', '~> 1.0.1', '>= 1.0.0'
   s.add_development_dependency 'simplecov', '~> 0.12.0'
+  s.add_development_dependency 'thor'
   s.add_development_dependency 'yard', '~> 0.9.4'
 end
