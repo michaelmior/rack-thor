@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.files       = Dir['lib/**/*']
   s.homepage    = 'https://github.com/michaelmior/rack-thor/'
 
-  s.add_dependency 'hanami-router', '~> 0.6.2', '>= 0.6.0'
-  s.add_dependency 'rack', '~> 2.0.1', '>= 2.0.0'
-  s.add_dependency 'rake', '~> 12.0.0', '>= 12.0.0'
+  s.add_dependency 'hanami-router', '~> 1.1.0', '>= 1.1.0'
+  s.add_dependency 'rack', '~> 2.0.4', '>= 2.0.0'
+  s.add_dependency 'rake', '~> 12.3.0', '>= 12.3.0'
 
   s.add_development_dependency 'pry-nav', '~> 0.2.4', '>= 0.2.0'
   s.add_development_dependency 'pry-rescue', '~> 1.4.4', '>= 1.4.0'
