@@ -1,6 +1,6 @@
 # rack-thor
 
-[![Build Status](https://travis-ci.org/michaelmior/rack-thor.svg?branch=master)](https://travis-ci.org/michaelmior/rack-thor)
+[![Build Status](https://travis-ci.com/michaelmior/rack-thor.svg?branch=master)](https://travis-ci.com/michaelmior/rack-thor)
 [![Dependency Status](https://gemnasium.com/michaelmior/rack-thor.svg)](https://gemnasium.com/michaelmior/rack-thor)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/michaelmior/rack-thor/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/michaelmior/rack-thor/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/michaelmior/rack-thor/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/michaelmior/rack-thor/?branch=master)
